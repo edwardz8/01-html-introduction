@@ -183,7 +183,7 @@ figure {
 }
 
 .media__right {
-  margin-left: 1rem;
+  margin: 0;
 }
 
 .media__right h3 {
@@ -234,6 +234,7 @@ figure {
 
 
 .quote__card::after {
+  content: '';
   display: block;
 
   position: absolute;
